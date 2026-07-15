@@ -10,9 +10,4 @@ dependencies = [
 ]
 
 [tool.fastmcp]
-# This tells FastMCP to use uv environment management
-# with default settings (no custom path)
-environments = ["uv"]
-
-[tool.fastmcp.environments.uv]
-python = "3.12"  # This matches your deployment config
+environment = "uv"
